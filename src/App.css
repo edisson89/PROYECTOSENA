@@ -26,6 +26,15 @@
     inset-inline: 0;
     margin: 0 auto;
   }
+  .cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin:3%;
+    padding: auto;
+  }
 
   .base {
     width: 170px;
@@ -59,6 +68,7 @@
 #center {
   display: flex;
   flex-direction: column;
+  align-content: center;
   gap: 25px;
   place-content: center;
   place-items: center;
