@@ -38,13 +38,7 @@ function App() {
   location: "Ibague, Colombia",
   badges: ["Orgánico", "Comercio Justo"]
 }}/>
- <FeedCard product={{
-  name: "Café de Origen Directo",
-  price: "298.000",
-  provider: "Finca La Amalia",
-  location: "Ibague, Colombia",
-  badges: ["Orgánico", "Comercio Justo"]
-}}/>
+ 
 
           <TraceabilitySearch />
         </div>
